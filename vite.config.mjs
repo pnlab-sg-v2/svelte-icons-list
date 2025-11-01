@@ -4,10 +4,5 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [svelte()],
-    base: process.env.NODE_ENV === 'production' ? '/svelte-icons-list/' : '/',
-    server: {
-        hmr: {
-            port: 443,
-        }
-    }
+    base: process.env.NODE_ENV === 'production' ? '/svelte-icons-list/' : '/'
 })

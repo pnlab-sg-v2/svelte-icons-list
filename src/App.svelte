@@ -13,7 +13,7 @@
     if (searchTerm.trim() === '') {
       filteredEmojis = allEmojis;
     } else {
-      // Filter emojis that match the search term
+      // Filter emojis by character - users can paste an emoji to find it
       filteredEmojis = allEmojis.filter(emoji => emoji.includes(searchTerm));
     }
   }
