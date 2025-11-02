@@ -1,5 +1,7 @@
 # Svelte Icons List
 
+github ci
+
 A Svelte-based emoji browser with search functionality. Browse and search through a collection of emojis with a clean, responsive interface.
 
 ## Features
